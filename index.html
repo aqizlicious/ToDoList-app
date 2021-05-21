@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/24d4686378.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <h1 class="styling">To Do List App</h1>
+    <div class="input_task">
+        <input type="text" class="input" placeholder="Tambah tugas..">
+        <button class="addButton"><i class="fa fa-plus"></i></button>
+    </div>
+    <div class="container">
+        <div class="item">
+            <input type="text" class="item_input" value="sport"  disabled>
+            <button class="editButton"> EDIT</button>
+            <button class="removeButton">REMOVE</button>
+        </div>
+        <div class="item">
+            <input type="text" class="item_input" value="sport"  disabled>
+            <button class="editButton"> EDIT</button>
+            <button class="removeButton">REMOVE</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
